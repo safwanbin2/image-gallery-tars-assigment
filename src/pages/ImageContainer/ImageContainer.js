@@ -5,7 +5,7 @@ import { imageLoader } from '../../Contexts/LoadImages';
 const ImageContainer = () => {
     const { images } = useContext(imageLoader);
     return (
-        <div className='w-11/12 mx-auto my-8 grid grid-cols-4 gap-6'>
+        <div className='w-11/12 mx-auto my-8 grid grid-cols-1 md:grid-cols-4 gap-6'>
             {
                 images.map(image => <ListCard
                     image={image}

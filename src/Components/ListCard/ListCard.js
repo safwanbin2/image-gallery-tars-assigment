@@ -7,7 +7,7 @@ const ListCard = ({ image }) => {
     return (
         <>
             <label onClick={() => setModalImage(image)} htmlFor="my-modal-4" className="card bg-base-100 shadow-2xl cursor-pointer">
-                <figure><img src={urls.thumb} alt="Shoes" className='w-full h-[250px]' /></figure>
+                <figure><img src={urls.thumb} alt="Shoes" className='w-full h-full md:h-[250px]' /></figure>
                 <div className="card-body">
                     <h2 className="card-title">
                         {user.name}

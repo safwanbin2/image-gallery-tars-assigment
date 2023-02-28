@@ -8,7 +8,7 @@ function App() {
   const {isDark} = useContext(imageLoader);
   console.log(isDark)
   return (
-    <div data-theme={isDark ? "" : "light"} >
+    <div data-theme={isDark ? "" : "emerald"} >
       <RouterProvider
         router={router}
       ></RouterProvider>
